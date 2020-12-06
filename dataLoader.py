@@ -134,6 +134,77 @@ class DataLoader:
                     flavours[word.lower()]+=1
         return flavours
 
+    def topFlavourInEachCountry(self, brand = None):
+        """
+        find top flavour in each country, filtered by brand
+        :param brand: default is None, it can specify a brand
+        :return: dic
+        """
+        flavours = dict(DataLoader.flavours)
+        dic = {}
+        for index, row in self.data.iterrows():
+            if brand:
+                if row['Brand'] != brand:
+                    continue
+            country = row['Country']
+            if country not in dic:
+                dic[country] = dict(flavours)
+            words = row['Variety'].split()
+            for word in words:
+                if word.lower() in flavours:
+                    dic[country][word.lower()]+=1
+        res = {}
+        for country, fla in dic.items():
+            count = 0
+            temp = []
+            for k, v in fla.items():
+                if v>count:
+                    temp.clear()
+                    temp.append((k, v))
+                    count = v
+                elif v==count and v!=0:
+                    temp.append((k,v))
+            if temp:
+                res[country] = list(temp)
+
+        return res
+
+    def topFlavourInEachBrand(self, country = None):
+        """
+        find top flavour in each brand, filtered by country
+        :param country: default is None, it can specify a country
+        :return: dic
+        """
+        flavours = dict(DataLoader.flavours)
+        dic = {}
+        for index, row in self.data.iterrows():
+            if country:
+                if row['Country'] != country:
+                    continue
+            brand = row['Brand']
+            if brand not in dic:
+                dic[brand] = dict(flavours)
+            words = row['Variety'].split()
+            for word in words:
+                if word.lower() in flavours:
+                    dic[brand][word.lower()]+=1
+        res = {}
+        for brand, fla in dic.items():
+            count = 0
+            temp = []
+            for k, v in fla.items():
+                if v>count:
+                    temp.clear()
+                    temp.append((k, v))
+                    count = v
+                elif v==count and v!=0:
+                    temp.append((k,v))
+            if temp:
+                res[brand] = list(temp)
+
+        return res
+
+
 path = './ramen-ratings.csv'
-test = DataLoader(path)
-print(test.countFlavour(country='Japan'))
+dataLoader = DataLoader(path)
+print(dataLoader.topFlavourInEachBrand('Japan'))
