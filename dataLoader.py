@@ -29,7 +29,8 @@ class DataLoader:
         'pork': 0,
         'lamb': 0,
         'oriental': 0,
-        'tomato': 0
+        'tomato': 0,
+        'sour':0
     }
     def __init__(self, filePath):
         """
@@ -75,6 +76,10 @@ class DataLoader:
         :return: DataFrame
         """
         res = self.data.groupby('Country').agg({'Stars': 'mean'}).sort_values(by='Stars', ascending=False)
+        return res
+
+    def groupCountry(self):
+        res = self.data.groupby('Country').count()
         return res
 
     def styleInCountry(self):
@@ -204,7 +209,45 @@ class DataLoader:
 
         return res
 
+    def top5FlavourInCountries(self, countries):
+        res = {}
+        for country in countries:
+            dic = self.countFlavour(country = country)
+            flavourDic = {
+                'chicken': 0,
+                'seafood': 0,
+                'beef': 0,
+                'pork': 0,
+                'mushroom': 0,
+            }
+            for k, v in dic.items():
+                if k == 'seafood' or k == 'crab' or k == 'shrimp':
+                    flavourDic['seafood']+=v
+                elif k in flavourDic:
+                    flavourDic[k]+=v
+            res[country] = dict(flavourDic)
+        return res
+
+    def top5SeasoningsInCountries(self, countries):
+        res = {}
+        for country in countries:
+            dic = self.countFlavour(country = country)
+            topSeasonings = {
+                'spicy': 0,
+                'curry': 0,
+                'oriental': 0,
+                'tonkotsu': 0,
+                'thai': 0
+            }
+            for k, v in dic.items():
+                if k == 'spicy' or k == 'hot':
+                    topSeasonings['spicy']+=v
+                elif k in topSeasonings:
+                    topSeasonings[k]+=v
+            res[country] = dict(topSeasonings)
+        return res
 
 path = './ramen-ratings.csv'
 dataLoader = DataLoader(path)
-print(dataLoader.topFlavourInEachBrand('Japan'))
+countries = ['USA', 'China', 'Japan', 'Hong Kong', 'Indonesia', 'Vietnam', 'Thailand', 'Taiwan', 'South Korea', 'Singapore','Malaysia']
+print(dataLoader.top5SeasoningsInCountries(countries))
