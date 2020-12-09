@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt     # for visualisation
 import seaborn as sns     # for visualisation
 
-ramen_data = pd.read_csv('./ramen-ratings.csv')
+ramen_data = pd.read_csv('../data/ramen-ratings.csv')
 ramen_data['Stars'] = pd.to_numeric(ramen_data['Stars'], errors = 'coerce')
 ramen_data['Brand'] = ramen_data['Brand'].str.lower()
 

@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
-from dataLoader import DataLoader
-path = './ramen-ratings.csv'
+from src.dataLoader import DataLoader
+path = '../data/ramen-ratings.csv'
 dataLoader = DataLoader(path)
 countries = ['USA', 'China', 'Japan', 'Hong Kong', 'Indonesia', 'Vietnam', 'Thailand', 'Taiwan', 'South Korea', 'Singapore','Malaysia']
 countrySeasonings = dataLoader.top5SeasoningsInCountries(countries)

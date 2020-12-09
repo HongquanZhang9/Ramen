@@ -247,7 +247,7 @@ class DataLoader:
             res[country] = dict(topSeasonings)
         return res
 
-path = './ramen-ratings.csv'
-dataLoader = DataLoader(path)
-countries = ['USA', 'China', 'Japan', 'Hong Kong', 'Indonesia', 'Vietnam', 'Thailand', 'Taiwan', 'South Korea', 'Singapore','Malaysia']
-print(dataLoader.top5SeasoningsInCountries(countries))
+# path = '../data/ramen-ratings.csv'
+# dataLoader = DataLoader(path)
+# countries = ['USA', 'China', 'Japan', 'Hong Kong', 'Indonesia', 'Vietnam', 'Thailand', 'Taiwan', 'South Korea', 'Singapore','Malaysia']
+# print(dataLoader.top5SeasoningsInCountries(countries))
