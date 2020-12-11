@@ -24,6 +24,7 @@
 ```
 .
 ├── README.md
+├── Team_2_Ramen.pdf
 ├── data
 │   └── ramen-ratings.csv
 ├── figures
@@ -44,7 +45,8 @@
 │   └── ramen_wordcloud.py
 └── structure.md
 
-4 directories, 16 files
+4 directories, 17 files
+
 ```
 
 
