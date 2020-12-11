@@ -55,7 +55,7 @@ def plot():
     plt.title( 'The amount of ramen brands in each country', fontsize=16)
     plt.ylabel('Number_of_Brands_Reviwed')
     plt.xticks(rotation = 90)
-    plt.show()
+#     plt.show()
 
     codeToName = {}
     for country in pycountry.countries:
