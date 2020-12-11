@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6207f4d-6d69-4cc1-8472-a09b420b54d7" name="Default Changelist" comment="delete some useless references">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/figures/.ipynb_checkpoints/figures-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/figures/figures.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/figures/figures.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.vscode/settings.json" beforeDir="false" />
-    </list>
+    <list default="true" id="c6207f4d-6d69-4cc1-8472-a09b420b54d7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +86,7 @@
       <workItem from="1607603527734" duration="318000" />
       <workItem from="1607603849107" duration="2751000" />
       <workItem from="1607698134836" duration="339000" />
-      <workItem from="1607698479931" duration="1109000" />
+      <workItem from="1607698479931" duration="1467000" />
     </task>
     <task id="LOCAL-00001" summary="figures of flavour about country and global">
       <created>1607325375912</created>
@@ -128,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607608682910</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="sweep">
+      <created>1607699667326</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607699667326</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,37 +141,38 @@
     <MESSAGE value="plot figures in figures.ipynb" />
     <MESSAGE value="create folders" />
     <MESSAGE value="delete some useless references" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete some useless references" />
+    <MESSAGE value="sweep" />
+    <option name="LAST_COMMIT_MESSAGE" value="sweep" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607602387363">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="360" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1607602387363" />
-    <state x="471" y="147" key="CommitChangelistDialog2" timestamp="1607696438521">
+    <state x="471" y="147" key="CommitChangelistDialog2" timestamp="1607699666886">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="471" y="147" key="CommitChangelistDialog2/0.23.1792.1097@0.23.1792.1097" timestamp="1607696438521" />
+    <state x="471" y="147" key="CommitChangelistDialog2/0.23.1792.1097@0.23.1792.1097" timestamp="1607699666886" />
     <state width="778" height="466" key="DebuggerActiveHint" timestamp="1607519321706">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="778" height="466" key="DebuggerActiveHint/0.23.1792.1097@0.23.1792.1097" timestamp="1607519321706" />
-    <state width="875" height="303" key="GridCell.Tab.0.bottom" timestamp="1607699093462">
+    <state width="875" height="303" key="GridCell.Tab.0.bottom" timestamp="1607699829469">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="875" height="303" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1607699093462" />
-    <state width="875" height="303" key="GridCell.Tab.0.center" timestamp="1607699093461">
+    <state width="875" height="303" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1607699829469" />
+    <state width="875" height="303" key="GridCell.Tab.0.center" timestamp="1607699829469">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="875" height="303" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1607699093461" />
-    <state width="875" height="303" key="GridCell.Tab.0.left" timestamp="1607699093461">
+    <state width="875" height="303" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1607699829469" />
+    <state width="875" height="303" key="GridCell.Tab.0.left" timestamp="1607699829469">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="875" height="303" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1607699093461" />
-    <state width="875" height="303" key="GridCell.Tab.0.right" timestamp="1607699093462">
+    <state width="875" height="303" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1607699829469" />
+    <state width="875" height="303" key="GridCell.Tab.0.right" timestamp="1607699829469">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="875" height="303" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1607699093462" />
+    <state width="875" height="303" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1607699829469" />
     <state width="1750" height="374" key="GridCell.Tab.1.bottom" timestamp="1607519462484">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -194,10 +197,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="397" y="210" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1607603909513" />
-    <state x="496" y="311" key="Vcs.Push.Dialog.v2" timestamp="1607608694296">
+    <state x="496" y="311" key="Vcs.Push.Dialog.v2" timestamp="1607699766641">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1607608694296" />
+    <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1607699766641" />
     <state x="644" y="291" key="git4idea.branch.GitSmartOperationDialog" timestamp="1607521661775">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
