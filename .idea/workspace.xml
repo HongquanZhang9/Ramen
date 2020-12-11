@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6207f4d-6d69-4cc1-8472-a09b420b54d7" name="Default Changelist" comment="delete some useless references" />
+    <list default="true" id="c6207f4d-6d69-4cc1-8472-a09b420b54d7" name="Default Changelist" comment="delete some useless references">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/.ipynb_checkpoints/figures-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/figures.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/figures/figures.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.vscode/settings.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,6 +90,8 @@
       <workItem from="1607603220742" duration="297000" />
       <workItem from="1607603527734" duration="318000" />
       <workItem from="1607603849107" duration="2751000" />
+      <workItem from="1607698134836" duration="339000" />
+      <workItem from="1607698479931" duration="1109000" />
     </task>
     <task id="LOCAL-00001" summary="figures of flavour about country and global">
       <created>1607325375912</created>
@@ -147,22 +154,22 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="778" height="466" key="DebuggerActiveHint/0.23.1792.1097@0.23.1792.1097" timestamp="1607519321706" />
-    <state width="875" height="303" key="GridCell.Tab.0.bottom" timestamp="1607604781310">
+    <state width="875" height="303" key="GridCell.Tab.0.bottom" timestamp="1607699093462">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="875" height="303" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1607604781310" />
-    <state width="875" height="303" key="GridCell.Tab.0.center" timestamp="1607604781310">
+    <state width="875" height="303" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1607699093462" />
+    <state width="875" height="303" key="GridCell.Tab.0.center" timestamp="1607699093461">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="875" height="303" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1607604781310" />
-    <state width="875" height="303" key="GridCell.Tab.0.left" timestamp="1607604781309">
+    <state width="875" height="303" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1607699093461" />
+    <state width="875" height="303" key="GridCell.Tab.0.left" timestamp="1607699093461">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="875" height="303" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1607604781309" />
-    <state width="875" height="303" key="GridCell.Tab.0.right" timestamp="1607604781310">
+    <state width="875" height="303" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1607699093461" />
+    <state width="875" height="303" key="GridCell.Tab.0.right" timestamp="1607699093462">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="875" height="303" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1607604781310" />
+    <state width="875" height="303" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1607699093462" />
     <state width="1750" height="374" key="GridCell.Tab.1.bottom" timestamp="1607519462484">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -195,10 +202,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="644" y="291" key="git4idea.branch.GitSmartOperationDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1607521661775" />
-    <state x="572" y="367" key="git4idea.merge.GitPullDialog" timestamp="1607696271671">
+    <state x="572" y="367" key="git4idea.merge.GitPullDialog" timestamp="1607698490811">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="572" y="367" key="git4idea.merge.GitPullDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1607696271671" />
+    <state x="572" y="367" key="git4idea.merge.GitPullDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1607698490811" />
     <state x="675" y="467" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1607603652533">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
