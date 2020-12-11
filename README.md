@@ -21,6 +21,35 @@
   A folder store graphs presented in the README.md file.
 
 
+```
+.
+├── README.md
+├── data
+│   └── ramen-ratings.csv
+├── figures
+│   └── figures.ipynb
+├── other
+│   ├── loader.ipynb
+│   └── viualization.ipynb
+├── readmeGraph
+│   └── hotWords.jpg
+├── src
+│   ├── __init__.py
+│   ├── average_star_brand.py
+│   ├── average_star_brand_country.py
+│   ├── average_star_country.py
+│   ├── continent_size.py
+│   ├── dataLoader.py
+│   ├── global_and_country_preference.py
+│   ├── heatmap_average_rating.py
+│   ├── heatmap_number_brand.py
+│   ├── heatmap_number_review.py
+│   └── ramen_wordcloud.py
+└── temp
+
+5 directories, 18 files
+```
+
 
 ## Run the code
 
