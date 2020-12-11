@@ -171,12 +171,20 @@ def plot():
             codeToName[country.alpha_3] = 'UK'
         elif country.name == 'Netherlands':
             codeToName[country.alpha_3] = 'Holland'
-
+    
+    
+    countryToRating = {}
+    for index, row in test.topCountryForMeanStars().iterrows():
+        countryToRating[index] = row['Stars']
     def normalize_row(row):
         countryName = codeToName[row['iso_alpha']]
         return test.getTotalCount(country=countryName)
 
 
+    def normalize_rowII(row):
+        countryName = codeToName[row['iso_alpha']]
+        return countryToRating.get(countryName, 0)
+    
     import plotly.express as px
     import numpy as np
 
@@ -185,11 +193,10 @@ def plot():
 
 
 
-
-    gapminder['counts'] = gapminder.apply(lambda row: normalize_row(row), axis=1) 
+    gapminder['average rating'] = gapminder.apply(lambda row: normalize_rowII(row), axis=1) 
 
     fig = px.choropleth(gapminder, locations="iso_alpha",
-                        color="counts", 
+                        color='average rating', 
                         hover_name="country", # column to add to hover information
                         color_continuous_scale=px.colors.sequential.Plasma)
 
