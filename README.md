@@ -28,9 +28,6 @@
 │   └── ramen-ratings.csv
 ├── figures
 │   └── figures.ipynb
-├── other
-│   ├── loader.ipynb
-│   └── viualization.ipynb
 ├── readmeGraph
 │   └── hotWords.jpg
 ├── src
@@ -47,7 +44,7 @@
 │   └── ramen_wordcloud.py
 └── temp
 
-5 directories, 18 files
+4 directories, 16 files
 ```
 
 
