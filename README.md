@@ -42,7 +42,7 @@
 │   ├── heatmap_number_brand.py
 │   ├── heatmap_number_review.py
 │   └── ramen_wordcloud.py
-└── temp
+└── structure.md
 
 4 directories, 16 files
 ```
@@ -66,6 +66,30 @@
 
 - ### pandas
 
+```
+pip3 instsall pandas
+```
+
 - ### seaborn
 
+```
+pip3 instsall seaborn
+```
+
 - ### matplotlib
+
+```
+pip3 instsall matplotlib
+```
+
+- ### wordcloud
+
+```
+pip3 instsall wordcloud
+```
+
+- ### pycountry
+
+```
+pip3 install pycountry
+```
